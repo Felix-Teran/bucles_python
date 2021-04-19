@@ -160,9 +160,9 @@ def ej3():
     # y cacular la sumatoria
 
     for i in notas:
-        sumatoria += i
         if i >= 0:
             cantidad_notas += 1
+            sumatoria += i
         elif i < 0:
             cantidad_ausentes += 1
 
